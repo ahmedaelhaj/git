@@ -50,3 +50,5 @@ git clone https://token@github.com/ahmedaelhaj/private_repo.git
 git fetch origin <branch>
 # Pull Repo (pull the change with merge)
 git pull
+
+# NOTE
