@@ -51,4 +51,26 @@ git fetch origin <branch>
 # Pull Repo (pull the change with merge)
 git pull
 
-# NOTE
+# Branch
+# New
+git branch <name>
+# Switch
+git switch <name> / git checkout <name>
+# create and switch branch
+git checkout -b <name>
+# List
+git branch
+git branch -a 
+# Rename
+git branch -m <old-name> <new-name>
+# Merge (you switch to the main branch first)
+git merge <branch-to-bring-in>
+# Delete
+git branch -d <name>
+git branch -D <name>
+# Delete Remote
+git push origin --delete <name>
+# History
+git log --oneline --graph --all
+
+# Checkout
