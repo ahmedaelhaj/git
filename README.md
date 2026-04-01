@@ -71,6 +71,18 @@ git branch -D <name>
 # Delete Remote
 git push origin --delete <name>
 # History
+git log --oneline
 git log --oneline --graph --all
 
 # Checkout
+git checkout <commit-hash>
+
+# Undo changes to the latest commit
+git restore <filename>
+# Undo Specific commit
+git restore --source HEAD~2  <filename>
+# Undo staging area file (untrack)
+git restore --staged .
+
+# Git Reset
+# Git Revert
